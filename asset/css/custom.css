@@ -6,7 +6,6 @@ h1 {
 svg {
     position: absolute;
     bottom: 0;
-    z-index: 2;
 }
 
 #slant {
@@ -20,7 +19,21 @@ svg {
     padding-bottom: 14% !important; 
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 65px;
+    }
+    
+    a.navbar-brand {
+        width: 25%;
+    }
+
+    #about-me{
+        font-size: 42px !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1199px) {
     h1 {
         font-size: 65px;
     }
@@ -29,6 +42,9 @@ svg {
         width: 40%;
     }
     
+    #about-me{
+        font-size: 38px !important;
+    }
 }
 
 @media (min-width: 200px) and (max-width: 766px) {
@@ -40,4 +56,7 @@ svg {
         width: 75%;
     }
     
+    #about-me {
+        font-size: 24px !important;
+    }
 }
