@@ -17,14 +17,25 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-svg {
+#slant-header svg {
     position: absolute;
     bottom: 0;
 }
 
-#slant {
+#slant-footer svg {
+    position: absolute;
+    top: 0;
+}
+
+#slant-header, #slant-footer {
     box-sizing: border-box;
     position: relative;
+}
+
+#background-image {
+    position: relative;
+    bottom: 2.5rem;
+    z-index: 1;
 }
 
 #heading { 
