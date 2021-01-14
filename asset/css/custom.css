@@ -1,6 +1,23 @@
+.card {
+    border: 0;
+    margin: 1rem;
+}
+
+.card-body {
+    padding: 2rem 0 2rem 0;
+}
+
+#courses p {
+    font-size: 1.4rem;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 svg {
@@ -18,6 +35,13 @@ svg {
     padding-top:  14% !important; 
     padding-bottom: 14% !important; 
 }
+
+
+#courses {
+    padding-left: 6.8rem !important;
+    padding-right: 6.8rem !important;
+}
+
 
 @media screen and (min-width: 1200px) {
     h1 {
