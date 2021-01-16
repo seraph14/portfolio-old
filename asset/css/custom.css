@@ -17,6 +17,20 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+.nav-link:link, .nav-link:visited {
+    color: #3f3f3f !important;
+
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #c9c9c9 !important;
+}
+
+.navigation-link:hover, .navigation-link:active {
+
+    background-color: black;
+}
+
 #slant-header svg {
     position: absolute;
     bottom: 0;
