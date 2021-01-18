@@ -23,6 +23,38 @@
     background-color: black;
 }
 
+/* animating navbar brand */
+
+.navbar-brand > img:hover {
+    animation: skew 1s;
+    transform: skew(-10deg);
+    animation-direction: normal;
+}
+
+.navbar-brand > img{
+    animation: skew 2s;
+    animation-name: skewBack;
+    animation-direction: normal;
+}
+  
+  @keyframes skew {
+    0% {
+      transform: skewX(0deg);
+    }
+    100% {
+      transform: skewX(-10deg);
+    }
+  }
+
+  @keyframes skewBack {
+    0% {
+      transform: skewX(-10deg);
+    }
+    100% {
+      transform: skewX(0deg);
+    }
+  }
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
