@@ -1,3 +1,4 @@
+
 .card {
     border: 0;
     margin: 1rem;
@@ -7,15 +8,6 @@
     padding: 2rem 0 2rem 0;
 }
 
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-}
 
 .nav-link:link, .nav-link:visited {
     color: #3f3f3f !important;
@@ -29,6 +21,20 @@ p {
 .navigation-link:hover, .navigation-link:active {
 
     background-color: black;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body > footer {
+    margin-top: 6rem;
 }
 
 #slant-header svg {
@@ -48,7 +54,7 @@ p {
 
 #background-image {
     position: relative;
-    bottom: 2.5rem;
+    bottom: 5.5rem;
     z-index: 1;
 }
 
@@ -58,8 +64,16 @@ p {
     padding-bottom: 14% !important; 
 }
 
+#about-me {
+    font-weight: lighter;
+}
 
+#about-me, #videos, #courses, #book, #contact, #skills {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
+/* For Extra large screens only */
 
 @media screen and (min-width: 1200px) {
     h1 {
@@ -78,11 +92,9 @@ p {
         font-size: 1.2rem;
     }
 
-    #courses, #videos, #about-me {
-        padding-left: 6.8rem !important;
-        padding-right: 6.8rem !important;
-    }
 }
+
+/* For large screens only */
 
 @media (min-width: 767px) and (max-width: 1199px) {
     h1 {
@@ -101,11 +113,9 @@ p {
         font-size: 1.2rem;
     }
 
-    #courses, #videos, #about-me {
-        padding-left: 1.8rem !important;
-        padding-right: 1.8rem !important;
-    }
 }
+
+/* For small screens only */
 
 @media (min-width: 200px) and (max-width: 766px) {
     h1 {
@@ -128,8 +138,4 @@ p {
         font-size: 1.8rem;
     }
 
-    #courses, #videos, #about-me {
-        padding-left: 1.8rem !important;
-        padding-right: 1.8rem !important;
-    }
 }
