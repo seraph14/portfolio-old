@@ -124,6 +124,10 @@ body > footer {
         font-size: 1.2rem;
     }
 
+    #image-header {
+        height: 28rem;   
+    }
+
 }
 
 /* For large screens only */
@@ -145,11 +149,15 @@ body > footer {
         font-size: 1.2rem;
     }
 
+    #image-header {
+        height: 28rem;   
+    }
+
 }
 
 /* For small screens only */
 
-@media (min-width: 200px) and (max-width: 766px) {
+@media screen and (max-width: 766px) {
     h1 {
         font-size: 32px;
     }
@@ -168,6 +176,10 @@ body > footer {
 
     #courses h2, #videos h2 {
         font-size: 1.8rem;
+    }
+
+    #image-header {
+        height: 18rem;   
     }
 
 }
