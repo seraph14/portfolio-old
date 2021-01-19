@@ -90,11 +90,6 @@ body > footer {
     z-index: 1;
 }
 
-#heading { 
-    background-size: cover !important;
-    padding-top:  15rem !important; 
-    padding-bottom: 15rem !important; 
-}
 
 #about-me {
     font-weight: lighter;
@@ -128,6 +123,9 @@ body > footer {
         height: 28rem;   
     }
 
+    #image-header {
+        height: 40rem;
+    }
 }
 
 /* For large screens only */
